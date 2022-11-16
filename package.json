@@ -2,8 +2,17 @@
     "name": "@cetra-finance/sdk",
     "version": "0.1.0",
     "description": "✨ An SDK for accessing cetra yield generation protocol.",
-    "main": "src/index.ts",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
     "repository": "https://github.com/cetra-finance/sdk.git",
+    "keywords": [
+        "solana",
+        "defi",
+        "defi-sdk"
+    ],
     "author": "b3zrazli4n0 <b3zrazli4n0@gmail.com>",
     "license": "MIT",
     "private": false,
